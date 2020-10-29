@@ -1,4 +1,10 @@
-### Element UI CDN加速
+# [前端随记](#)
+* [CDN加速](#CDN加速)
+* [vue跨域配置](#vue跨域配置)
+* [umi-request](#umi-request)
+* [富文本 tinymce 本地引用](#富文本tinymce本地引用)
+* [vue动画初体验](#vue动画初体验)
+### CDN加速
 vue.config.js
 ```js
 /** 
@@ -223,7 +229,7 @@ export function POSTrequest(url, params) {
 }
 ```
 
-### 富文本 tinymce 本地引用
+### 富文本tinymce本地引用
 ```shell
 // version:3.2.3 
 $ npm i @tinymce/tinymce-vue 
