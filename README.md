@@ -362,9 +362,9 @@ components: { Tinymce: ()=> import('@/components/Tinymce') },
     @enter="enter"
     @afterEnter="afterEnter"
   >
-  <!-- Y轴线性动画 -->
+  <!-- Y轴非线性动画 -->
   <div class="ball" v-show="ball.show" :style="{ 'top': y+'px', 'left': x+'px' }">
-    <!-- X轴非线性 -->
+    <!-- X轴线性动画 -->
     <div class="inner"></div>
   </div>
   </transition>
